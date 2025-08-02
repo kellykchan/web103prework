@@ -1,0 +1,69 @@
+.creator-view {
+  max-width: 800px;
+  margin: 3rem auto;
+  padding: 3rem;
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+}
+
+.creator-view img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.creator-view h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #a94464;
+  text-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.creator-view p {
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.creator-view a {
+  display: inline-block;
+  margin-top: 1rem;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  background-color: #a94464;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.creator-view a:hover {
+  background-color: #8c3a54;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.button-group a,
+.button-group .edit-button,
+.button-group a:last-child {
+  margin-top: 0;
+}
+
+.button-group a:hover,
+.button-group .edit-button:hover {
+  text-decoration: none;
+}
