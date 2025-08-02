@@ -27,7 +27,6 @@ const ShowCreators = () => {
     if (window.history.state && window.history.state.usr?.scrollToGallery) {
       const section = document.getElementById('creator-gallery');
       section?.scrollIntoView({ behavior: 'smooth' });
-      // Optional: clean up the state so it doesn’t scroll again on back/forward navigation
       window.history.replaceState({}, '');
     }
   }, []);
